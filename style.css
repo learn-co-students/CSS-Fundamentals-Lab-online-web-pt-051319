@@ -3,3 +3,35 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1, h3, p, figcaption, nav, a, div {
+  text-align: center;
+}
+
+.center_align {
+text-align: center;
+}
+
+nav a {
+  padding: 0 10px;
+  background-color: lightgray;
+  margin: 0 auto;
+}
+
+img.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.blocktext {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+div.other_details{
+  float: left;
+  background-color: red;
+  width: 25%;
+}
